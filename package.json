@@ -1,0 +1,29 @@
+{
+  "name": "oss-electrode-component-sass-example",
+  "version": "0.0.1",
+  "description": "oss-electrode-component-sass-example-component",
+  "author": {
+    "name": "",
+    "url": "https://github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//.git"
+  },
+  "bugs": {
+    "url": "https://github.com///issues"
+  },
+  "homepage": "https://github.com//",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test",
+    "publish": "lerna publish"
+  },
+  "dependency": {},
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.5",
+    "lodash": "^4.10.1",
+    "xclap": "^0.2.0"
+  },
+  "private": true
+}

@@ -1,0 +1,38 @@
+{
+  "name": "oss-electrode-component-sass-example",
+  "version": "0.0.1",
+  "description": "oss-electrode-component-sass-example",
+  "main": "lib/index.js",
+  "author": {
+    "name": "",
+    "url": "https://github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//.git"
+  },
+  "bugs": {
+    "url": "https://github.com///issues"
+  },
+  "homepage": "https://github.com//",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^5.0.0",
+    "electrode-archetype-react-component-dev": "^5.0.0"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "prepublish": "clap prepublish",
+    "start": "clap demo",
+    "test": "clap check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
