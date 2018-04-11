@@ -45,4 +45,4 @@ clap dev
 
 Go to your browser and opens `http://localhost:3000`, you shall see the demo as below:
 
-![Alt text](./images/demo.png)
+![Alt text](./images/demo.png?raw=true "Electrode Component Demo")
