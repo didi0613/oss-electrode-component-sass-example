@@ -1,0 +1,35 @@
+.active {
+  display: inherit;
+}
+
+.inactive {
+  display: none;
+}
+
+.accordion {
+  background-color: #FFFFFF;
+  border: 1px solid #1EAEDB;
+  border-radius: 5px;
+  border-top-color: #1EAEDB;
+  color: #000000;
+  text-align: left;
+  word-wrap: break-word;
+
+  a {
+    color: #1EAEDB;
+    display: inline-block;
+    padding: 10px;
+
+    &:hover {
+      color: #1EAEDB;
+      cursor: pointer;
+    }
+  }
+
+  p {
+    background-color: blue;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    padding: 10px;
+  }
+}

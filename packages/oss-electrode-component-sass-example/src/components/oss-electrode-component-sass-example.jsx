@@ -5,10 +5,7 @@
 import React from "react";
 import propTypes from "prop-types";
 
-// remember to also remove the bundled demo CSS files
-// from ../styles
-
-import styles from "../styles/oss-electrode-component-sass-example.css";
+import styles from "../styles/oss-electrode-component-sass-example.scss";
 import Accordion from "./accordion";
 
 export default class OssElectrodeComponentSassExample extends React.Component {

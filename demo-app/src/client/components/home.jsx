@@ -14,19 +14,14 @@ const locale = "en";
 
 export class Home extends React.Component {
   render() {
-    //
-    // this is data for the bundled demo
-    // please remove it when working on your
-    // own component
-    //
     return (
       <IntlProvider locale={locale}>
         <div className={custom.demoAppContainer}>
           <h2>
-            Hello from {" "}
             <a href="https://github.com/electrode-io">
-              {"Electrode"} <img src={electrodePng} />
+              <img src={electrodePng} />
             </a>
+            Component SASS Example
           </h2>
           <OssElectrodeComponentSassExample />
         </div>
