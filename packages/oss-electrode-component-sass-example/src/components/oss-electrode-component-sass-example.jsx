@@ -13,7 +13,20 @@ import Accordion from "./accordion";
 
 export default class OssElectrodeComponentSassExample extends React.Component {
   render() {
-    const data = this.props.data;
+    const data = [
+      {
+        summary: "summary 1",
+        details: "details 1"
+      },
+      {
+        summary: "summary 2",
+        details: "details 2"
+      },
+      {
+        summary: "summary 3",
+        details: "details 3"
+      }
+    ];
 
     return (
       <div className={styles.container}>

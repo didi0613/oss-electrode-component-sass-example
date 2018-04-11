@@ -15,7 +15,9 @@
     "url": "https://github.com///issues"
   },
   "homepage": "https://github.com//",
-  "dependencies": {},
+  "dependencies": {
+    "electrode-demo-index": "^2.0.0"
+  },
   "devDependencies": {
     "electrode-archetype-react-component": "^5.0.0",
     "electrode-archetype-react-component-dev": "^5.0.0"

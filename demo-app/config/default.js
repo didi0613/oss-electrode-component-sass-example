@@ -26,6 +26,7 @@ module.exports = {
       "module": "electrode-react-webapp/lib/hapi",
       "options": {
         "pageTitle": "demo-app",
+        "serverSideRendering": false,
         "paths": {
           "/{args*}": {
             "content": {
