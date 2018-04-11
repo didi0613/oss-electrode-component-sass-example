@@ -43,4 +43,6 @@ Stays in the `demo-app` directory and run:
 clap dev
 ``
 
-Go to your browser and opens `http://localhost:3000`, you shall see the demo.
+Go to your browser and opens `http://localhost:3000`, you shall see the demo as below:
+
+![Alt text](./images/demo.png)
