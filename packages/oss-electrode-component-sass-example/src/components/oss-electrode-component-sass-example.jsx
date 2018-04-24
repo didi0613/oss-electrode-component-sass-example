@@ -27,7 +27,7 @@ export default class OssElectrodeComponentSassExample extends React.Component {
 
     return (
       <div className={styles.container}>
-        <h4>Demo Component</h4>
+        <h4>First Component</h4>
         {data.map((d, x) => <Accordion key={x} summary={d.summary} details={d.details} />)}
       </div>
     );

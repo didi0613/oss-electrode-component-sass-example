@@ -5,6 +5,11 @@ import { IntlProvider } from "react-intl";
 import OssElectrodeComponentSassExample from "oss-electrode-component-sass-example/demo/demo";
 import "oss-electrode-component-sass-example/demo/demo.css";
 
+import Untitled973Component from "untitled973-component/demo/demo";
+import "untitled973-component/demo/demo.css";
+
+console.log("xxxxxx", Untitled973Component);
+
 import "../styles/raleway.css";
 import "../styles/skeleton.css";
 import custom from "../styles/custom.css";
@@ -24,6 +29,7 @@ export class Home extends React.Component {
             Component SASS Example
           </h2>
           <OssElectrodeComponentSassExample />
+          <Untitled973Component />
         </div>
       </IntlProvider>
     );
