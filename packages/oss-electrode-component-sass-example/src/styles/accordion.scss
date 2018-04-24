@@ -1,3 +1,5 @@
+@import "vars.scss";
+
 .active {
   display: inherit;
 }
@@ -7,28 +9,28 @@
 }
 
 .accordion {
-  background-color: #FFFFFF;
-  border: 1px solid #1EAEDB;
+  background-color: $white;
+  border: 1px solid $border-blue;
   border-radius: 5px;
-  border-top-color: #1EAEDB;
-  color: #000000;
+  border-top-color: $border-blue;
+  color: $black;
   text-align: left;
   word-wrap: break-word;
 
   a {
-    color: #1EAEDB;
+    color: $border-blue;
     display: inline-block;
     padding: 10px;
 
     &:hover {
-      color: #1EAEDB;
+      color: $border-blue;
       cursor: pointer;
     }
   }
 
   p {
-    background-color: blue;
-    color: #FFFFFF;
+    background-color: $background-blue;
+    color: $white;
     margin-bottom: 0px;
     padding: 10px;
   }

@@ -42,7 +42,8 @@
     "electrode-server": "^1.0.0",
     "electrode-static-paths": "^1.0.0",
     "lodash": "^4.10.1",
-    "oss-electrode-component-sass-example": "../packages/oss-electrode-component-sass-example"
+    "oss-electrode-component-sass-example": "../packages/oss-electrode-component-sass-example",
+    "untitled973-component": "../packages/untitled973-component"
   },
   "devDependencies": {
     "electrode-archetype-react-app-dev": "^5.0.0"
