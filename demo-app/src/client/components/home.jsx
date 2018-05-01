@@ -8,8 +8,6 @@ import "oss-electrode-component-sass-example/demo/demo.css";
 import Untitled973Component from "untitled973-component/demo/demo";
 import "untitled973-component/demo/demo.css";
 
-console.log("xxxxxx", Untitled973Component);
-
 import "../styles/raleway.css";
 import "../styles/skeleton.css";
 import custom from "../styles/custom.css";
